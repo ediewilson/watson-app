@@ -4,6 +4,8 @@
       <router-link class="nav-link" v-for="routes in links" 
       v-bind:key="routes.id"
       :to="`${routes.page}`">{{routes.text}}</router-link>
+      <a href="https://www.linkedin.com/in/elizabeth-wilson-7a766718a/" class="nav-link"><button type="button" class="btn btn-li"><i class="fab fa-linkedin-in"></i></button></a>
+      <a href="https://github.com/ediewilson" class="nav-link"><button type="button" class="btn btn-git"><i class="fab fa-github"></i></button></a>
     </nav>
   </div>
 </template>
@@ -35,7 +37,4 @@ export default {
 }
 </script>
 <style>
-.spacing {
-  margin-right: 10px;
-}
 </style>
