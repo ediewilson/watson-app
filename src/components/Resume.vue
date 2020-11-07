@@ -2,27 +2,41 @@
 <template>
   <div>
     <h1>Resume</h1>
-    <p>Resume page babyyyyy</p>
-    <div>
-      <h3>Contact</h3>
-      <p>Elizabeth Wilson</p>
-      <p>EMAIL: ediewilson13@gmail.com</p>
-      <p>CELL: (603) 484-3709</p>
-      <p>ADDRESS: 4714 Hinman, Dartmouth College, Hanover, NH, 03755</p>
-    </div>
+    <Contact></Contact>
+    <PersonalProfile></PersonalProfile>
     <Experiences></Experiences>
+    <Skills></Skills>
+    <Honors></Honors>
+    <OtherExperience></OtherExperience>
   </div>
 </template>
 
 <script>
+import Contact from './resume/Contact'
 import Experiences from './resume/Experiences'
+import Honors from './resume/HonorsPrizesAwards'
+import OtherExperience from './resume/OtherExperience'
+import PersonalProfile from './resume/PersonalProfile'
+import Skills from './resume/Skills'
+
+
+
 
 export default {
-  name: 'Resume', //this is the name of the component, 
+  name: 'Resume',
+  
   components: {
       'Experiences': Experiences,
-    }
+      'Contact': Contact,
+      'Honors': Honors,
+      'OtherExperience': OtherExperience,
+      'PersonalProfile': PersonalProfile,
+      'Skills': Skills,
+    },
 }
 </script>
 <style>
+h1 {
+  margin-top: 12px;
+}
 </style>

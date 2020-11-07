@@ -1,14 +1,48 @@
 <template>
   <div>
-    <h1>Home</h1>
-    <p>Here is some information. This is the home page</p>
+    <h1>Hi! Nice to meet you, I'm Edie.</h1>
+    <img class="profile-pic" src="../assets/img/headshot.jpg"/>
+    <h3>Personal Profile Statement (but make it more personal)...</h3>
+    <ul>
+      <li>{{ this.blog }}</li>
+      <li>{{ this.blogTwo }}</li>
+      <li>{{ this.blogThree }}</li>
+    </ul>
+    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home' //this is the name of the component
+  name: 'Home', //this is the name of the component
+
+  data() {
+    return {
+      blog: 'March 2019 is when I learned how to program. I was a likely engineering major at Dartmouth College, following closely in the footsteps of my father, who had gone through college and become an industrial engineer. However, in my first year as an engineer, nothing really EXCITED me.',
+      blogTwo: 'I definitely don\'t remember the first thing that I learned in introductory physics, but I very clearly remember my first introductory programming class. Print statements and if loops. As clear as day, I remember the feeling of watching my terminal print out the numbers one through ten on my screen. Something that I now know is so simple absolutely electrified me with excitement.',
+      blogThree: 'Long story short, I decided that, maybe even if I had to be the only computer science major who didn\'t know how to code yet, that I would be alright. So here, scattered throughout this site, are some projects I\'ve worked on, some more about me, my resumé, and how to reach out to me. When I\'m not coding, I love to make art, listen to music, live sustainably, and play with my dog. I run the 400m at a NCAA D1 school, I love to sail, and just learned to rollerblade. Most of all, I love to make things happen, make things exciting, and see my passions and dreams become reality. I hope you find something here that sparks your interest!',
+    }
+  }
 }
 </script>
 <style>
+.profile-pic {
+  max-height: 250px;
+  border-radius: 100%;
+  padding: 12px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0 12px 0 12px;
+  margin: 0 12px 0 12px;
+}
+li {
+  align-self: center;
+}
+h1 {
+  margin-top: 12px;
+}
 </style>
