@@ -1,11 +1,14 @@
 <template>
-  <div>
-    <h1>Hi! Nice to meet you, I'm Edie.</h1>
-    <img class="profile-pic" src="../assets/img/headshot.jpg"/>
-    <h3>Personal Profile Statement (but make it more personal)...</h3>
+  <div class="home">
+    <div class="header">
+      <h1>Hi! Nice to meet you, I'm Edie.</h1>
+    </div>
+    <h3>Personal Profile Statement (but not the resumé kind)</h3>
     <ul>
       <li>{{ this.blog }}</li>
+      <li>...</li>
       <li>{{ this.blogTwo }}</li>
+      <li>...</li>
       <li>{{ this.blogThree }}</li>
     </ul>
     
@@ -25,24 +28,35 @@ export default {
   }
 }
 </script>
-<style>
-.profile-pic {
-  max-height: 250px;
-  border-radius: 100%;
-  padding: 12px;
-}
-ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0 12px 0 12px;
-  margin: 0 12px 0 12px;
-}
-li {
-  align-self: center;
-}
-h1 {
-  margin-top: 12px;
-}
+<style scoped>
+  .profile-pic {
+    max-height: 250px;
+    border-radius: 100%;
+    padding: 12px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/img/sunset.png');
+    background-size: cover;
+    height: 400px;
+  } 
+
+  h1 {
+    position: relative;
+    top: -75px;
+  }
+  h3 {
+    padding-top: 2.5%;
+  }
 </style>

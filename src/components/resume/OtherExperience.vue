@@ -40,6 +40,11 @@ export default {
                 jobTitle: 'Member of the Dartmouth Entrepreneurship LLC',
                 jobDescription: 'hi'
                 },
+                    {
+                id: 7,
+                jobTitle: 'Freshmen Trips Program Orientation Leader',
+                jobDescription: 'Worked for Dartmouth College and completed first aid and wilderness safety training to lead a group of 8 incoming freshmen on a 5 day hike in the White Mountains. I led team bonding programs to facilitate the group in their transition to college.',
+                },
             ]
         }
     },
@@ -58,6 +63,6 @@ ul {
   margin: 0 12px 0 12px;
 }
 li {
-  align-self: center;
+  align-self: flex-start;
 }
 </style>

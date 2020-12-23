@@ -2,7 +2,7 @@
     <div class="honors-card">
         <h4>Honors, Prizes, Awards</h4>
         <ul>
-             <li v-for="item in honors" :key="item.id">
+             <li v-for="item in honors" :key="item.title">
             {{ item.jobTitle }}
         </li>
         </ul>
@@ -17,7 +17,7 @@ export default {
             honors: [
                 {
                 id: 0,
-                jobTitle: 'Recipient of the Dartmouth Junior Scholars Grant for $1000',
+                jobTitle: '3 time recipient of the Dartmouth Junior Scholars Grant for $1000',
                 year: 2020,
                 },
                 {
@@ -53,7 +53,7 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 ul {
   display: flex;
   flex-direction: column;
@@ -63,6 +63,6 @@ ul {
   margin: 0 12px 0 12px;
 }
 li {
-  align-self: center;
+  align-self: start;
 }
 </style>
