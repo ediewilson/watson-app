@@ -43,7 +43,7 @@
     <div class="buzzfeed">
     <h2>Buzzfeed Quiz!</h2>
       <img src="../assets/img/buzzfeed.png" class="buzzfeed-quiz"/>
-      <p>Have you ever wondered which Ivy League school you're the best fit for? Check out one of my first full stack development projects! Unfortunately it's not actually full stack but it is at least a little entertaining... <a href="https://dartmouth-cs52-20s.github.io/lab2-quizzical-ediewilson/">Take the quiz</a>.</p>
+      <p>Have you ever wondered which Ivy League school you're the best fit for? Check out one of my first full stack development projects! Unfortunately it's not actually full stack but it is at least a little entertaining... <a href="https://ediewilson.github.io/CS-52-Lab-2/">Take the quiz</a>.</p>
       <p>This project was built using jQuery, HTML, and CSS.</p>
     </div>
   </div>

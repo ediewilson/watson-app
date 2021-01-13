@@ -58,11 +58,12 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   list-style-type: none;
   padding: 0 12px 0 12px;
   margin: 0 12px 0 12px;
 }
 li {
-  align-self: start;
+  margin-bottom: 6px;
 }
 </style>

@@ -42,7 +42,9 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin: 0 12px 12px 12px;
+  padding-top: 8px;
+  background-color: rgb(245, 245, 245);
+
 }
 </style>

@@ -1,13 +1,12 @@
 <template>
-<div :class="['card', {'show-card': show}]" @click="togglePopup">
-    <div :class="{'show-card': show}">
+<div class="card">
+    <div @click="openModal">
         <img :src="this.item.logo" />
         <p class="title"> {{ this.item.jobTitle }} </p>
         <p class="company">{{ this.item.company }}</p>
         <p class="duration">{{ this.item.duration }}</p>
-        <p v-if="show" class="description">{{ this.item.jobDescription }}</p>
     </div>
-    <ExperiencePopup v-if="show" :item="item"></ExperiencePopup>
+    <ExperiencePopup v-if="showPopup" :item="item" @close="closeModal"></ExperiencePopup>
 </div>
 </template>
 
@@ -22,17 +21,20 @@ export default {
   },
   data() {
       return {
-          show: false,
+          showPopup: false,
       }
   },
   components: {
     'ExperiencePopup': ExperiencePopup,
   },
   methods: {
-      togglePopup() {
-          this.show = !this.show
+      closeModal() {
+          this.showPopup = false;
+      },
+      openModal() {
+          this.showPopup = true;
       }
-  }
+  },
 }
 </script>
 <style lang="scss" scoped>
@@ -43,6 +45,7 @@ export default {
     align-items: center;
     margin: 10px;
     padding: 10px;
+    transition: all 0.5s ease;
 
     .title {
         font-size: 2rem;
@@ -65,9 +68,7 @@ export default {
     }
 }
 
-.show-card { 
-    background-color: lightsteelblue;
-    justify-content: start;
-    align-items: flex-start;
+.card:hover {
+    background-color: rgb(237, 237, 237); 
 }
 </style>

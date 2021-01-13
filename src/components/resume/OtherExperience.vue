@@ -3,8 +3,8 @@
         <h4>Other Experiences</h4>
         <ul>
              <li class="experience-card" v-for="item in otherExperiences" :key="item.id">
-            {{ item.jobTitle }}
-        </li>
+                {{ item.jobTitle }}
+            </li>
         </ul>
     </div>
 </template>
@@ -53,16 +53,17 @@ export default {
     }
 }
 </script>
-<style>
+<style lang="scss" scoped>
 ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   list-style-type: none;
   padding: 0 12px 0 12px;
   margin: 0 12px 0 12px;
 }
 li {
-  align-self: flex-start;
+  margin-bottom: 6px;
 }
 </style>
