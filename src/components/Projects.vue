@@ -5,6 +5,10 @@
     If you want to check out the code behind the magic, take a look at <a href="https://github.com/ediewilson">my Github!</a>
   </p>
   <div class="tempo">
+    <h2>This Site!</h2>
+    <p>This site is a work in progress, and I'll update it with new projects as I get to them. As of right now (winter term 2021), I'm in a Security and Privacy class, and a Discrete Mathmatics in Computer Science class.</p>
+  </div>
+  <div class="tempo">
     <h2>Tempo</h2>
     <p>Tempo is an iOS app that I created with a group in my first web development class. This app used the Spotify API along with our selection criteria to create playlists. The <a href="https://github.com/ediewilson/project-workout-playlists">front end of project</a> and the <a href="https://github.com/ediewilson/project-api-workout-playlists">back end of the project</a> are on Github, but below are some screencaps from the app...</p>
     <ul>

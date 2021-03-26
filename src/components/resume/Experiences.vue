@@ -64,9 +64,9 @@ export default {
                 jobDescription: 'As a TA for introductory programming, I lead a group of students through weekly programming exercises, as well as helping students put together larger coding assignments for the first time. I led 3 hours of office hours per week and was responsible for grading the assignments of 6 students. This has improved my skills in Python as well as my general knowledge and understanding of computer science.',
                 logo: require('../../assets/img/dartmouth.png'),
                 website: 'https://web.cs.dartmouth.edu/',
-                skills: [],
+                skills: ['Managing a group', 'Debugging and code reviewing'],
                 languages: ['Python'],
-                accomplishments: [],
+                accomplishments: ['The section that I lead all got 4.0s in the class!'],
                 },
                 {
                 id: 4,
@@ -76,9 +76,9 @@ export default {
                 jobDescription: 'Working to develop a Text Encoding Initiative schema and encoding transcripts of oral interviews for the DDHI, and working on developing software to analyze oral histories. Built a website in Flask and created a python script and database to facilitate coordinate reconciliation in our collected data. Received the Dartmouth Sophomore Scholars Grant for $1000 in two consecutive terms and the Dartmouth Junior Scholars Grant to pursue this research for the following year.',
                 logo: require('../../assets/img/ddhi.png'),
                 website: 'https://ddhi.dartmouth.edu/',
-                skills: [],
+                skills: ['Group work', 'TEI', 'Named Entity Linking', 'Using Wikidata', 'Working with oral histories'],
                 languages: ['Flask', 'Python', 'TEI/HTML tagging'],
-                accomplishments: [],
+                accomplishments: ['Worked with a team to help develop a new way of analyzing and visualizing oral histories'],
                 },
                 {
                 id: 5,
@@ -88,9 +88,9 @@ export default {
                 jobDescription: 'Working with the Academic Skills Center at Dartmouth College to provide tutoring to 1-5 students per term in multivariable calculus (MATH 008), introductory computer science (COSC 001), and introduction to object oriented programming (COSC 010).',
                 logo: require('../../assets/img/dartmouth.png'),
                 website: 'https://students.dartmouth.edu/academic-skills/',
-                skills: [],
+                skills: ['Tutoring', 'Code / work reviews'],
                 languages: ['Python', 'Java'],
-                accomplishments: [],
+                accomplishments: ['Helped multiple students improve their standing in a class'],
                 },
                 {
                 id: 6,
@@ -102,7 +102,7 @@ export default {
                 website: 'https://www.wilsonssecurity.ca/',
                 skills: ['Excel', 'Sedona Office', 'Customer service'],
                 languages: ['SQL'],
-                accomplishments: ['Migrated 2 company aquisitions into our database from physical customer files', 'Organized paper customer filing system'],
+                accomplishments: ['Migrated two company aquisitions into our database from physical customer files', 'Organized paper customer filing system'],
                 },
             ]
         }
