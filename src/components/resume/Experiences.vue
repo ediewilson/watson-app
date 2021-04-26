@@ -60,7 +60,7 @@ export default {
                 id: 3,
                 jobTitle: 'Teaching Assistant for Introductory Computer Science',
                 company: 'Dartmouth College',
-                duration: 'March 2020 - June 2020',
+                duration: 'March 2020 - June 2021',
                 jobDescription: 'As a TA for introductory programming, I lead a group of students through weekly programming exercises, as well as helping students put together larger coding assignments for the first time. I led 3 hours of office hours per week and was responsible for grading the assignments of 6 students. This has improved my skills in Python as well as my general knowledge and understanding of computer science.',
                 logo: require('../../assets/img/dartmouth.png'),
                 website: 'https://web.cs.dartmouth.edu/',
