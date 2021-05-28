@@ -1,16 +1,10 @@
 <template>
   <div class="home">
     <div class="header">
-      <h1>Hi! Nice to meet you, I'm Edie.</h1>
+      <h1>Pick a Pic</h1>
     </div>
-    <h3>Personal Profile Statement (but not the resumé kind)</h3>
-    <ul>
-      <li>{{ this.blog }}</li>
-      <li>...</li>
-      <li>{{ this.blogTwo }}</li>
-      <li>...</li>
-      <li>{{ this.blogThree }}</li>
-    </ul>
+    <h3>we are picking photos</h3>
+      <p>{{ this.blog }}</p>
 </div>
 </template>
 
@@ -20,9 +14,7 @@ export default {
 
   data() {
     return {
-      blog: 'March 2019 is when I learned how to program. I was a likely engineering major at Dartmouth College, following closely in the footsteps of my father, who had gone through college and become an industrial engineer. However, in my first year as an engineer, nothing really EXCITED me.',
-      blogTwo: 'I definitely don\'t remember the first thing that I learned in introductory physics, but I very clearly remember my first introductory programming class. Print statements and if loops. As clear as day, I remember the feeling of watching my terminal print out the numbers one through ten on my screen. Something that I now know is so simple absolutely electrified me with excitement.',
-      blogThree: 'Long story short, I decided that, maybe even if I had to be the only computer science major who didn\'t know how to code yet, that I would be alright. So here, scattered throughout this site, are some projects I\'ve worked on, some more about me, my resumé, and how to reach out to me. When I\'m not coding, I love to make art, listen to music, live sustainably, and play with my dog. I run the 400m at a NCAA D1 school, I love to sail, and just learned to rollerblade. Most of all, I love to make things happen, make things exciting, and see my passions and dreams become reality. I hope you find something here that sparks your interest!',
+      blog: 'Do you like photography',
     }
   }
 }
@@ -40,25 +32,10 @@ export default {
 
 </script>
 <style scoped>
-  .profile-pic {
-    max-height: 250px;
-    border-radius: 100%;
-    padding: 12px;
-  }
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style-type: none;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  
   .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../assets/img/sunset.png');
     background-size: cover;
     height: 400px;
   } 
